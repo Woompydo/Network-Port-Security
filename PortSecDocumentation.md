@@ -9,3 +9,6 @@ We'll add some basic devices, including two laptops and a switch. Each laptop wi
 - Shutdown: Disables the switch port when a security violation occurs. The port must be reactivated before it can work again.
 
 Protect and Restrict are quite similar. Both block traffic from unauthorized devices, but Restrict also records the violation. In other words, Restrict offers an additional feature compared to Protect. So, we'll focus on testing the Shutdown and Restrict violation modes.
+
+<img width="410" height="236" alt="image" src="https://github.com/user-attachments/assets/c01e1bdd-3087-4d65-9f8f-610ae4b5f940" />
+
