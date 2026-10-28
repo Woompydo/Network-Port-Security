@@ -1,4 +1,4 @@
-This documentation will guide you through configuring port security. Port security restricts which devices can connect to a physical switch port using a cable by checking their MAC addresses.
+<img width="410" height="236" alt="image" src="https://github.com/user-attachments/assets/ce9d7b8c-4977-4f01-aea7-5ed054a960eb" />This documentation will guide you through configuring port security. Port security restricts which devices can connect to a physical switch port using a cable by checking their MAC addresses.
 
 ## Step 1: Setting Up the Devices
 
@@ -12,3 +12,4 @@ Protect and Restrict are quite similar. Both block traffic from unauthorized dev
 
 <img width="410" height="236" alt="image" src="https://github.com/user-attachments/assets/c01e1bdd-3087-4d65-9f8f-610ae4b5f940" />
 
+In the image above, we have a switch, two PCs, and another PC that will attempt to attack the switch port.
