@@ -1,5 +1,3 @@
-<img width="410" height="236" alt="image" src="https://github.com/user-attachments/assets/ce9d7b8c-4977-4f01-aea7-5ed054a960eb" />
-
 This documentation will guide you through configuring port security. Port security restricts which devices can connect to a physical switch port using a cable by checking their MAC addresses.
 
 ## Step 1: Setting Up the Devices
