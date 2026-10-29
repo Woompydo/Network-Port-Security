@@ -4,9 +4,9 @@ This documentation will guide you through configuring port security. Port securi
 
 We'll add some basic devices, including two laptops and a switch. Each laptop will demonstrate a different type of security violation. What's that, you may ask? Well, there are three types of security violations that I'll explain to you.
 
-- Protect: Blocks traffic from unauthorized devices but keeps the switch port active.
-- Restrict: Blocks unauthorized traffic and records the violation, usually by increasing a counter and sending a log message.
-- Shutdown: Disables the switch port when a security violation occurs. The port must be reactivated before it can work again.
+- **Protect**: Blocks traffic from unauthorized devices but keeps the switch port active.
+- **Restrict**: Blocks unauthorized traffic and records the violation, usually by increasing a counter and sending a log message.
+- **Shutdown**: Disables the switch port when a security violation occurs. The port must be reactivated before it can work again.
 
 Protect and Restrict are quite similar. Both block traffic from unauthorized devices, but Restrict also records the violation. In other words, Restrict offers an additional feature compared to Protect. So, we'll focus on testing the Shutdown and Restrict violation modes.
 
@@ -21,9 +21,8 @@ Make sure to configure the PCs first by assigning them IP addresses. Then, verif
 
 Why do we do this? Because we want the switch to learn the MAC addresses of the connected devices. There are two ways to do this:
 
-Sticky: This allows the switch to learn MAC addresses automatically and add them to the port security configuration. We'll use this method because it's simpler.
-
-Manual: This requires us to manually enter the MAC addresses into the switch's port security configuration.
+**Sticky**: This allows the switch to learn MAC addresses automatically and add them to the port security configuration. We'll use this method because it's simpler.
+**Manual**: This requires us to manually enter the MAC addresses into the switch's port security configuration.
 
 
 
