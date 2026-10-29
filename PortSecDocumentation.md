@@ -13,3 +13,6 @@ Protect and Restrict are quite similar. Both block traffic from unauthorized dev
 <img width="410" height="236" alt="image" src="https://github.com/user-attachments/assets/c01e1bdd-3087-4d65-9f8f-610ae4b5f940" />
 
 In the image above, we have a switch, two PCs, and another PC that will attempt to attack the switch port.
+
+## Step 2: Configuring the Switch
+
