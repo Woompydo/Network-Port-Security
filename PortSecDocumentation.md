@@ -28,6 +28,10 @@ We'll be using Sticky to automatically add the learned MAC addresses to the swit
 
 **Manual**: This requires us to manually enter the MAC addresses into the switch's port security configuration.
 
+Now, we'll configure the switch to enable port security on the two ports connected to our PCs. We'll use the switch's CLI to do this. Here's how:
+
+<img width="347" height="176" alt="image" src="https://github.com/user-attachments/assets/18e512e4-560d-4a47-9ead-17c4c9e1e7c4" />
+
 
 
 
