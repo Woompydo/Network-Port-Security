@@ -14,5 +14,18 @@ Protect and Restrict are quite similar. Both block traffic from unauthorized dev
 
 In the image above, we have a switch, two PCs, and another PC that will attempt to attack the switch port.
 
-## Step 2: Configuring the Switch
+
+## Step 2: Configuring the PC & Switch
+
+Make sure to configure the PCs first by assigning them IP addresses. Then, verify that you can send PDUs between the PCs connected to the switch.
+
+Why do we do this? Because we want the switch to learn the MAC addresses of the connected devices. There are two ways to do this:
+
+Sticky: This allows the switch to learn MAC addresses automatically and add them to the port security configuration. We'll use this method because it's simpler.
+
+Manual: This requires us to manually enter the MAC addresses into the switch's port security configuration.
+
+
+
+
 
