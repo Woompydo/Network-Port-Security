@@ -34,11 +34,11 @@ Now, we'll configure the switch to enable port security on the two ports connect
 
 Now there's some command lines that I should tell you that's important for configuring the port security, let's take a look at each line...
 
-- Switch(config-if)# switchport mode access, this command configures the switch port to operate in access mode, allowing it to connect to an end device (such as a PC or printer) and assign it to a single VLAN.
+- `Switch(config-if)# switchport mode access`, this command configures the switch port to operate in access mode, allowing it to connect to an end device (such as a PC or printer) and assign it to a single VLAN.
 
 <sub>Note: A VLAN (Virtual Local Area Network) is a logical network that separates devices into different groups within the same physical network.</sub>
 
-Switch-1(config-if)# switchport port-security mac-address sticky, This command enables sticky MAC address learning, allowing the switch to automatically learn and save the MAC address of the connected device.
+- `Switch-1(config-if)# switchport port-security mac-address sticky`, This command enables sticky MAC address learning, allowing the switch to automatically learn and save the MAC address of the connected device.
 
 
 
