@@ -32,7 +32,8 @@ Now, we'll configure the switch to enable port security on the two ports connect
 
 <img width="347" height="176" alt="image" src="https://github.com/user-attachments/assets/18e512e4-560d-4a47-9ead-17c4c9e1e7c4" />
 
+Now there's some command lines that I should tell you that's important for configuring the port security, let's take a look at each line...
 
-
+- Switch(config-if)# switchport mode access, this command configures the switch port to operate in access mode, allowing it to connect to an end device (such as a PC or printer) and assign it to a single VLAN.
 
 
