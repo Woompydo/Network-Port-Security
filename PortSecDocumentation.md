@@ -38,7 +38,9 @@ Now there's some command lines that I should tell you that's important for confi
 
 <sub>Note: A VLAN (Virtual Local Area Network) is a logical network that separates devices into different groups within the same physical network.</sub>
 
-- `Switch-1(config-if)# switchport port-security mac-address sticky`, This command enables sticky MAC address learning, allowing the switch to automatically learn and save the MAC address of the connected device.
+- `Switch-1(config-if)# switchport port-security mac-address sticky`, this command enables sticky MAC address learning, allowing the switch to automatically learn and save the MAC address of the connected device.
+
+- `Switch-1(config-if)# switchport port-security violation shutdown`, this command configures the switch to shut down the port if an unauthorized device connects or a port security violation occurs.
 
 
 
