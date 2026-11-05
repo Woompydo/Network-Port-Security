@@ -36,4 +36,8 @@ Now there's some command lines that I should tell you that's important for confi
 
 - Switch(config-if)# switchport mode access, this command configures the switch port to operate in access mode, allowing it to connect to an end device (such as a PC or printer) and assign it to a single VLAN.
 
+<sub>Note: A VLAN (Virtual Local Area Network) is a logical network that separates devices into different groups within the same physical network.</sub>
+
+
+
 
